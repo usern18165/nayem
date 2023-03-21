@@ -1,0 +1,69 @@
+.modarator-update-modal-main-setions {
+    margin: 0px;
+
+    .role-sections {
+        label {
+            width: 120px;
+        }
+        select {
+            width: 300px;
+            height: 35px;
+            option:first-child {
+                display: none;
+            }
+        }
+    }
+
+    .update-name-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+    }
+   
+    .update-username-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+    }
+    
+    .update-eamil-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+    }
+
+    .update-phone-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+        
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+    }
+
+
+}

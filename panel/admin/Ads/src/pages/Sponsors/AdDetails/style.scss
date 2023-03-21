@@ -1,0 +1,86 @@
+.ads-details {
+    box-shadow: inset -4px -2px 17px -6px rgba(204, 205, 234, 0.52);
+    color: black;
+    padding: 10px;
+    margin: 4px;
+    font-size: 15px;
+
+    .details {
+        width: 95%;
+        div {
+            border-bottom: 1px solid lightgray;
+            padding: 10px 0;
+        }
+        .days {
+            border: none;
+        }
+
+        .category {
+            text-transform: capitalize;
+        }
+        .ads-type {
+            display: flex;
+            justify-content: space-between;
+
+            .type {
+                text-transform: capitalize;
+            }
+            .edit-section {
+                cursor: pointer;
+            }
+        }
+        .ads-titles {
+            display: flex;
+            justify-content: space-between;
+            .a-title {
+                width: 95%;
+                .title {
+                    text-transform: capitalize;
+                }
+            }
+            .edit-section {
+                cursor: pointer;
+            }
+        }
+        .ads-url {
+            display: flex;
+            justify-content: space-between;
+            .url {
+                width: 95%;
+            }
+            .edit-section {
+                cursor: pointer;
+            }
+        }
+        .ads-description {
+            display: flex;
+            justify-content: space-between;
+            .ads-descriptions {
+                width: 95%;
+                .description {
+                    text-transform: capitalize;
+                }
+            }
+
+            .edit-section {
+                cursor: pointer;
+            }
+        }
+        .ads-gender {
+            display: flex;
+            justify-content: space-between;
+
+            .gender {
+                text-transform: capitalize;
+            }
+
+            .edit-section {
+                cursor: pointer;
+            }
+        }
+
+        .ads-age {
+            text-transform: capitalize;
+        }
+    }
+}

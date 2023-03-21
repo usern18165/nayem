@@ -1,0 +1,43 @@
+.management-section {
+    margin: 10px 10px;
+
+    .add-modal-sections {
+        .add-modal-btn {
+            background-color: #0048ba;
+            color: #fff;
+            border: none;
+            height: 30px;
+            width: 60px;
+        }
+    }
+
+    .tabel-sections {
+        width: 90%;
+        .action-btn {
+            display: flex;
+            gap: 20px;
+
+            .update-btn {
+                margin-left: 2px;
+                background-color: #0048ba;
+                color: #fff;
+                border: none;
+                height: 30px;
+                width: 60px;
+            }
+            .change-pass-btn {
+                background-color: #eb8b13;
+                color: #fff;
+                border: none;
+                height: 30px;
+            }
+            .delete-btn {
+                background-color: #ba0000;
+                color: #fff;
+                border: none;
+                height: 30px;
+                width: 60px;
+            }
+        }
+    }
+}

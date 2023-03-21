@@ -1,0 +1,81 @@
+.adds-rate-section {
+    margin: 10px 10px;
+
+    .add-search-and-add-sections {
+        margin: 0 20px;
+        display: flex;
+        justify-content: space-between;
+
+        .search-sections {
+            form {
+                display: flex;
+                grid-gap: 10px;
+                gap: 10px;
+                align-items: center;
+                input {
+                    width: 150px;
+                    height: 30px;
+                }
+            }
+            .search-btn {
+                background-color: #0048ba;
+                color: #fff;
+                border: none;
+                height: 30px;
+                width: 60px;
+            }
+        }
+
+        .ad-modal-sections {
+            .add-modal {
+                background-color: #0048ba;
+                color: #fff;
+                border: none;
+                height: 30px;
+                width: 60px;
+            }
+        }
+    }
+
+    .table-sections {
+        margin-top: 20px;
+        .action-header {
+            width: 180px;
+        }
+        .table-data {
+            width: 10px;
+            .country {
+                text-transform: capitalize;
+            }
+            .state {
+                text-transform: capitalize;
+            }
+            .city {
+                text-transform: capitalize;
+            }
+            .ads-type {
+                text-transform: capitalize;
+            }
+            .action-btn {
+                display: flex;
+                gap: 20px;
+
+                .update-btn {
+                    margin-left: 8%;
+                    background-color: #0048ba;
+                    color: #fff;
+                    border: none;
+                    height: 30px;
+                    width: 60px;
+                }
+                .delete-btn {
+                    background-color: #ba0000;
+                    color: #fff;
+                    border: none;
+                    height: 30px;
+                    width: 60px;
+                }
+            }
+        }
+    }
+}

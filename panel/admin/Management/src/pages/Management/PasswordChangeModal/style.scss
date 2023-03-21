@@ -1,0 +1,44 @@
+.header-title {
+    margin: 10px 0 0 10px;
+}
+
+.password-change-modal-main-section {
+    .old-pass-section {
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+    }
+
+    .new-pass-section {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+    }
+
+    .confirm-pass-section {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+    }
+    .show-pass-sections {
+        margin-top: 10px;
+        margin-left: 120px;
+        cursor: pointer;
+
+        label {
+            margin-left: 5px;
+            cursor: pointer;
+        }
+    }
+}

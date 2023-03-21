@@ -1,0 +1,133 @@
+.adds-modal-sections {
+    margin: 10px;
+}
+.header-title {
+    margin: 10px 0 0 10px;
+}
+.add-modal-main-section {
+    .country-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+    }
+
+    .state-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+    }
+
+    .city-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+    }
+
+    .category-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        select {
+            width: 300px;
+            height: 35px;
+
+            option:first-child {
+                display: none;
+            }
+        }
+    }
+
+    .price-per-goals-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+    }
+
+    .time-per-goals-sections {
+        margin-top: 10px;
+        label {
+            width: 120px;
+        }
+        input {
+            width: 300px;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+    }
+
+    .vat-sections {
+        margin-top: 10px;
+        position: relative;
+
+        label {
+            width: 120px;
+        }
+
+        input {
+            width: 300px;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+
+        .usd-symbol {
+            position: absolute;
+            top: 0;
+            right: 50px;
+            border-left: 1px solid gray;
+            background-color: gray;
+            padding: 5px 10px;
+            height: 27px;
+            color: white;
+        }
+    }
+
+    .bg {
+        border-color: red;
+    }
+}

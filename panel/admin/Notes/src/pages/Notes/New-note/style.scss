@@ -1,0 +1,327 @@
+.create-note-header-section {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+
+    .title-input-field {
+        border: 1px solid #e4e4e4;
+        border-radius: 10px;
+        padding: 10px;
+        height: 40px;
+        width: 100%;
+        font-size: 15px;
+        option:first-child {
+            display: none;
+        }
+        option {
+            padding: 5px 10px;
+        }
+    }
+
+    .editorSubmit {
+        width: 10%;
+        .create-note-save-btn-active {
+            background-color: #0048ba;
+            font-weight: 900;
+            color: #ffffff;
+            padding: 5.6px 50px;
+            font-size: 15px;
+            height: 40px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 1px solid #e4e4e4;
+            transition: 0.1s ease-in-out;
+        }
+    }
+}
+
+.ql-toolbar.ql-snow {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: "system-ui";
+    padding: 0px !important;
+    margin: 0 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="5px"]::before {
+    content: "5px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="8px"]::before {
+    content: "8px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="10px"]::before {
+    content: "10px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="15px"]::before {
+    content: "15px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="20px"]::before {
+    content: "20px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="25px"]::before {
+    content: "25px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="30px"]::before {
+    content: "30px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="35px"]::before {
+    content: "35px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="40px"]::before {
+    content: "40px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="45px"]::before {
+    content: "45px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="50px"]::before {
+    content: "50px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="55px"]::before {
+    content: "55px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="60px"]::before {
+    content: "60px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="65px"]::before {
+    content: "65px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="70px"]::before {
+    content: "70px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="75px"]::before {
+    content: "75px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="80px"]::before {
+    content: "80px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="85px"]::before {
+    content: "85px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="90px"]::before {
+    content: "90px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="95px"]::before {
+    content: "95px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="100px"]::before {
+    content: "100px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="200px"]::before {
+    content: "200px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="300px"]::before {
+    content: "300px";
+    font-size: 16px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="400px"]::before {
+    content: "400px";
+    font-size: 16px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label::before {
+    content: "Size" !important;
+}
+
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+    border-color: #000 !important;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+    color: #000 !important;
+    z-index: 2;
+}
+.ql-container.ql-snow {
+    border: 1px solid rgba(204, 204, 204, 0) !important;
+}
+
+.ql-toolbar.ql-snow .ql-formats {
+    margin-right: 15px;
+    align-items: center !important;
+    display: flex !important;
+    font: -webkit-small-control !important;
+}
+button.ql-list {
+    border: none !important;
+    margin: 0px 0px !important;
+}
+button.ql-indent {
+    margin: 0px 15px 0px 0px !important;
+}
+
+.ql-snow.ql-toolbar button,
+.ql-snow .ql-toolbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    padding: 3px 0px;
+    width: 46px;
+    border-right: 2px solid #e4e4e4;
+    margin: 0px 15px;
+}
+
+.quillMainDiv {
+    position: relative;
+}
+
+.quillMainDiv .editorSubmit {
+    position: absolute;
+    right: 19px !important;
+    top: 8.5px !important;
+}
+.ql-snow .ql-editor a {
+    text-decoration: none !important;
+}
+
+.ql-snow a {
+    color: #ff0000 !important;
+}
+.ql-snow .ql-tooltip.ql-editing a.ql-action::after,
+.ql-remove {
+    border-right: 0px;
+    content: "Save";
+    padding-right: 0px;
+    color: black !important;
+}
+.ql-snow .ql-tooltip a.ql-action::after {
+    margin-left: 8px;
+    color: black;
+}
+.ql-snow .ql-tooltip a.ql-remove::before {
+    margin-left: 8px;
+    color: black;
+}
+.ql-align .ql-picker .ql-icon-picker {
+    margin: 8px 0px !important;
+    padding: 1px -1px !important;
+    left: -14px !important;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item::before {
+    content: "Normal";
+    width: 100px !important;
+}
+.ql-snow * {
+    box-sizing: border-box;
+    left: -8px !important;
+}
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+    border-color: #fff !important;
+}
+
+.ql-editor ul,
+ol {
+    padding-left: 0.25rem !important;
+}
+
+.ql-indent-1 {
+    padding-left: 2.5rem !important;
+}
+// SubmitNote button
+
+// pagination section
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paginationItem {
+    background: #fff;
+    border: 2px solid #666;
+    padding: 10px 15px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.paginationItem span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prev,
+.next {
+    background: #fff;
+    border: none;
+    padding: 10px;
+    color: rgb(15, 15, 15);
+    box-shadow: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.paginationItem.active {
+    border: 1px solid #e4e4e4;
+    color: #323232;
+    font-size: 20px;
+    pointer-events: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+.prev.disabled,
+.next.disabled {
+    pointer-events: none;
+    box-shadow: none;
+    color: #999;
+}
+// pagination section
+.MuiBackdrop-root {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    z-index: -1;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0) !important;
+    -webkit-tap-highlight-color: transparent;
+}
+.MuiPaper-elevation24 {
+    border: 1px solid rgba(221, 221, 221, 0.678);
+    box-shadow: none !important;
+}
+.ql-align,
+.ql-color,
+.ql-background {
+    margin: 8px;
+    padding: 1px 0px;
+    border-right: 2px solid #e4e4e4 !important;
+}
+.ql-snow .ql-color-picker,
+.ql-snow .ql-icon-picker {
+    width: 35px !important;
+}

@@ -1,0 +1,76 @@
+.update-modal-sections {
+}
+
+.ads-update-modal-main-setions {
+    .ads-category {
+        margin-top: 5px;
+        label {
+            width: 120px;
+        }
+        select {
+            width: 300px;
+            height: 35px;
+            cursor: pointer;
+            text-transform: capitalize;
+            option:first-child {
+                display: none;
+            }
+        }
+    }
+
+    .ads-titles {
+        margin-top: 5px;
+        display: flex;
+        label {
+            width: 120px;
+        }
+
+        textarea {
+            height: 60px;
+            width: 300px;
+        }
+    }
+
+    .ads-url {
+        margin-top: 5px;
+        display: flex;
+        label {
+            width: 120px;
+        }
+        textarea {
+            height: 60px;
+            width: 300px;
+        }
+    }
+
+    .ads-description {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        label {
+            width: 120px;
+        }
+        textarea {
+            height: 60px;
+            width: 300px;
+        }
+    }
+
+    .ads-gender {
+        margin-top: 5px;
+
+        label {
+            width: 120px;
+        }
+
+        select {
+            width: 300px;
+            height: 35px;
+            cursor: pointer;
+            text-transform: capitalize;
+            option:first-child {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,217 @@
+@font-face {
+  font-family: font;
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: font;
+  src: url("./assets/fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: font;
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: font;
+  src: url("./assets/fonts/Roboto-Bold.ttf");
+}
+// @import "./assets/fonts/OpenSans-Regular.ttf";
+// @import "./assets/fonts/OpenSans-Bold.ttf";
+// @import "./assets/fonts/Roboto-Regular.ttf";
+// @import "./assets/fonts/Roboto-Bold.ttf";
+* {
+  box-sizing: border-box;
+  &:focus {
+    outline: 0;
+  }
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #008d0700;
+  }
+}
+html,
+body {
+  font: {
+    family: "Open Sans", "Roboto", sans-serif; // 400, 700
+    size: 14px;
+    weight: 400;
+  }
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 255, 255) !important;
+}
+.lerkXQ a.active {
+  background-color: #e4e4e4;
+  color: #000000;
+}
+.lerkXQ a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: system-ui;
+}
+code {
+  font-family: system-ui;
+}
+a {
+  transition: all 0.3s;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+img,
+video {
+  max-width: 100%;
+  max-height: 100%;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  &:focus,
+  &:hover {
+    outline: 0;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+svg {
+  font-size: 18px !important;
+}
+input.fileInput {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  position: absolute;
+  z-index: -999;
+  opacity: 0;
+}
+.MuiMenu-list {
+  padding: 0 !important;
+}
+
+// timer section
+.timerDiv {
+  width: 100%;
+  margin-left: 90%;
+  padding: 12px;
+}
+.timer {
+  width: 20%;
+}
+.timer p {
+  font-size: 15px;
+  margin-bottom: 0px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: black;
+  font-family: system-ui
+}
+.chatinput {
+  width: 100%;
+}
+.chatSend {
+  display: flex;
+  // justify-content: space-between;
+  padding: 10px;
+}
+.chatSend button {
+  border: none;
+  background-color: white;
+}
+
+// basic color:
+// grey: hover : e4e4e4
+
+// filtering design modifier
+
+// sorting data filed
+.PrivateNotchedOutline-root-1 {
+  top: 0px;
+}
+.MuiOutlinedInput-notchedOutline {
+  border: 1px solid rgb(194, 194, 194) !important;
+}
+.MuiInputLabel-shrink {
+  color: rgb(0, 0, 0) !important;
+}
+.MuiPaper-elevation1 {
+  margin-bottom: 5px;
+}
+.PrivateTabIndicator-colorSecondary-5 {
+  background-color: #00000000 !important;
+}
+.PrivateNotchedOutline-root-7 {
+  top: 3px;
+  bottom: 8px;
+}
+.MuiPaper-elevation1 {
+  margin-bottom: 5px;
+}
+.PrivateTabIndicator-colorSecondary-5 {
+  background-color: #00000000 !important;
+}
+.PrivateNotchedOutline-root-7 {
+  top: 3px;
+  bottom: 8px;
+}
+.MuiTabs-root {
+  min-height: 30px;
+  margin-top: 10px;
+  .PrivateTabIndicator-colorSecondary-41 {
+    background-color: #f5005600;
+  }
+  .MuiTab-textColorPrimary.Mui-selected {
+    color: #000000 !important;
+    background-color: #e4e4e4;
+  }
+  .MuiTab-root {
+    flex: 1;
+    font-size: 12px;
+    min-height: 30px;
+    max-width: 100%;
+  }
+  .MuiTab-textColorPrimary.Mui-selected {
+    font-weight: bold;
+  }
+  div#demo-simple-select-outlined {
+    background-color: transparent !important;
+  }
+
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-4 {
+    background-color: #ffffff00 !important;
+  }
+  .MuiGrid-spacing-xs-2 > .MuiGrid-item {
+    padding: 0px;
+  }
+  .MuiGrid-grid-xs-1,
+  .MuiGrid-grid-xs-2 {
+    margin: 0px !important;
+  }
+
+  .MuiTab-root {
+    text-transform: capitalize;
+  }
+}

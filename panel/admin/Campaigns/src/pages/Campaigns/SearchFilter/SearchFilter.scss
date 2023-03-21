@@ -1,0 +1,127 @@
+$border-color: 1px solid #bebebe;
+$primary-color: #3f51b5;
+
+@mixin textfieldSection {
+    input {
+        position: relative;
+        width: 300px;
+        padding: 3px;
+        border: $border-color;
+    }
+}
+
+@mixin selectSection {
+    padding: 3px;
+
+    select {
+        width: 200px;
+        height: 30px;
+        border: $border-color;
+        padding: 2px;
+        option:first-child {
+            display: none;
+        }
+    }
+}
+
+@mixin up-down-arrow {
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+}
+
+
+    .campaign-search-filter-section {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        .campaign-id {
+            margin: 10px 0;
+            @include textfieldSection;
+            @include up-down-arrow;
+        }
+
+        .campaign-name {
+            @include textfieldSection;
+        }
+
+        .status {
+            @include selectSection;
+        }
+
+        .geography {
+            @include textfieldSection;
+            position: relative;
+            .suggest-box {
+                position: absolute;
+                width: 76%;
+                left: 3px;
+                // top: 0;
+                z-index: 9999999;
+                background-color: #fff;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 21%);
+                margin-top: 5px;
+                border-radius: 3px;
+                padding: 15px 20px;
+                max-height: 300px;
+                overflow-y: auto;
+                flex-direction: column;
+
+                .suggest-box-search-btn {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    height: 40px;
+                    outline: none;
+                    background: transparent;
+                    text-align: left;
+                    font-size: 14px;
+                    font-family: "Open Sans", sans-serif;
+                    border: none;
+                    border-bottom: 1px solid #eaeaea;
+
+                    &:hover {
+                        color: $primary-color;
+                        transition: 0.5s;
+                    }
+                    .suggest-box-line-climb {
+                        display: -webkit-box;
+                        -webkit-line-clamp: 1;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                    }
+                }
+            }
+            .search-btn {
+                background-color: #0048ba;
+                color: #fff;
+                border: none;
+                height: 30px;
+                width: 60px;
+                margin-left: 20px;
+            }
+
+            .delete-btn{
+                background-color: #ba0000;
+                color: #fff;
+                border: none;
+                height: 30px;
+                width: 60px;
+                margin-left: 20px;
+            }
+            
+        }
+    }
+
+

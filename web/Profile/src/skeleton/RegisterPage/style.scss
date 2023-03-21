@@ -1,0 +1,183 @@
+.skeleton {
+    opacity: 0.7;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-text {
+    width: 400px !important;
+    height: 2rem;
+    margin-top: 5px;
+    margin-bottom: 0.25rem;
+    border-radius: 0.125rem;
+}
+
+.skeleton-text:last-child {
+    margin-bottom: 0;
+    width: 80%;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(200, 20%, 70%);
+        // background-color: #cccccc;
+        // opacity: 0.1;
+    }
+
+    100% {
+        background-color: hsl(200, 20%, 95%);
+        // background-color: #cccccc;
+        // opacity: 1;
+    }
+}
+
+.register-skeleton-section {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+
+    .register-page-logo {
+        margin: 10px 35%;
+        background-color: #cccccccc;
+        height: 115px;
+        width: 265px;
+    }
+
+    .personal-info-section {
+        .skeleton-text {
+            width: 150px !important;
+            height: 1rem;
+            margin-top: 5px;
+            border-radius: 0.125rem;
+        }
+        .input-section {
+            display: flex;
+            gap: 30px;
+            .skeleton-input {
+                width: 50% !important;
+                height: 45px;
+                margin-bottom: 1rem;
+                border-radius: 0.125rem;
+            }
+        }
+    }
+
+    .residence-info-section {
+        .skeleton-text {
+            width: 150px !important;
+            height: 1rem;
+            margin-top: 0.75px;
+            border-radius: 0.125rem;
+        }
+
+        .skeleton-address-input {
+            width: 100% !important;
+            height: 45px;
+            margin-bottom: 0.75rem;
+            border-radius: 0.125rem;
+        }
+
+        .input-section {
+            display: flex;
+            gap: 30px;
+            .skeleton-input {
+                width: 50% !important;
+                height: 45px;
+                margin-bottom: 0.75rem;
+                border-radius: 0.125rem;
+            }
+        }
+    }
+
+    .user-info-section {
+        .skeleton-text {
+            width: 150px !important;
+            height: 1rem;
+            margin-top: 5px;
+            border-radius: 0.125rem;
+        }
+
+        .skeleton-small-text {
+            width: 50% !important;
+            height: 7px;
+            margin-top: 5px;
+            margin-bottom: 2px;
+            border-radius: 0.125rem;
+        }
+
+        .input-section {
+            display: flex;
+            gap: 30px;
+            .skeleton-input {
+                width: 50% !important;
+                height: 45px;
+                margin-bottom: 1rem;
+                border-radius: 0.125rem;
+            }
+        }
+        .phonenumber-input-field-section {
+            display: flex;
+            gap: 30px;
+
+            .phone-input {
+                display: flex;
+                width: 50% !important;
+                gap: 15px;
+                .dial-code {
+                    width: 22% !important;
+                    height: 45px;
+                    margin-bottom: 1rem;
+                    border-radius: 0.125rem;
+                }
+
+                .number-filed {
+                    width: 78% !important;
+                    height: 45px;
+                    margin-bottom: 1rem;
+                    border-radius: 0.125rem;
+                }
+            }
+            .skeleton-input {
+                width: 50% !important;
+                height: 45px;
+                margin-bottom: 1rem;
+                border-radius: 0.125rem;
+            }
+        }
+
+        .skeleton-progressbar {
+            width: 100% !important;
+            height: 7px;
+            margin-top: 5px;
+            margin-bottom: 2px;
+            border-radius: 0.125rem;
+        }
+
+        .terms-and-conditions {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            align-items: center;
+            .checkbox {
+                width: 5% !important;
+                height: 20px;
+                margin-top: 5px;
+                border-radius: 0.125rem;
+            }
+            .condition-text {
+                width: 95% !important;
+                height: 15px;
+                margin-top: 5px;
+                border-radius: 0.125rem;
+            }
+        }
+    }
+    .submit-btn{
+        margin: 15px 45%;
+        .submit-button{
+            height: 25px;
+            width: 90px;
+            border: none;
+            background: transparent;
+        }
+    }
+}

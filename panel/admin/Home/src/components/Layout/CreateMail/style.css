@@ -1,0 +1,61 @@
+.cmpsb {
+  position: fixed;
+  bottom: 0;
+  left: 30%;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 300px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.768627451);
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  background-color: #fff;
+}
+.cmpsb input,
+.cmpsb textarea {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #cecece;
+  padding: 5px;
+  margin: 10px 0;
+  resize: none;
+}
+.cmpsb input:focus,
+.cmpsb textarea:focus {
+  outline: 0;
+}
+.cmpsb textarea {
+  margin-bottom: 0;
+  height: 220px;
+  max-height: 80%;
+}
+
+.archs {
+  display: flex;
+  align-items: center;
+}
+.archs span {
+  font-size: 20px;
+}
+.archs svg {
+  height: 3rem;
+  width: 3rem;
+  color: rgb(0, 170, 34);
+}
+.archs button svg {
+  color: #ff5c10;
+}
+
+.mbtns {
+  padding: 10px;
+  background-color: #e2e2e2;
+  display: flex;
+  align-items: center;
+}
+.mbtns button {
+  margin: 0 5px;
+}
+.mbtns button:focus {
+  outline: 0;
+  box-shadow: none;
+}/*# sourceMappingURL=style.css.map */

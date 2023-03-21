@@ -1,0 +1,82 @@
+.keyword-adding-section {
+    margin: 10px 35%;
+    min-width: 400px;
+    .select-type-section {
+        select {
+            width: 300px;
+            height: 30px;
+        }
+    }
+    .keywords {
+        margin-top: 10px;
+        input {
+            width: 300px;
+            height: 30px;
+        }
+    }
+    .keyword-btn {
+        margin-top: 10px;
+        background-color: #0048ba;
+        color: #fff;
+        border: none;
+        height: 25px;
+        width: 60px;
+    }
+}
+
+.keyword-showing-section {
+    margin: 10px 20px;
+
+    .keyword-filter-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3 {
+            margin: 10px 0;
+        }
+        .keywords-filter {
+            display: flex;
+            gap: 10px;
+            form {
+                display: flex;
+                gap: 10px;
+
+                .submit-btn {
+                    background-color: #0048ba;
+                    color: #fff;
+                    border: none;
+                    height: 25px;
+                    width: 60px;
+                }
+                input {
+                    height: 25px;
+                }
+            }
+            .delete-btn {
+                background-color: #f50057;
+                color: #fff;
+                border: none;
+                height: 25px;
+                width: 60px;
+            }
+        }
+    }
+
+    .all-keyword {
+        padding: 10px;
+        border: 1px solid gray;
+        margin-bottom: 10px;
+
+        .select-options {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            input {
+                cursor: pointer;
+            }
+            label {
+                cursor: pointer;
+            }
+        }
+    }
+}

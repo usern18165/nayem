@@ -1,0 +1,126 @@
+.ads-filter-sections {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    align-items: flex-end;
+
+    .country-select-filter-sections {
+        display: flex;
+        flex-direction: column;
+        .country-label {
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .country-select-filter {
+            height: 30px;
+            option:first-child {
+                display: none;
+            }
+            option {
+                text-transform: capitalize;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .username-select-filter-sections {
+        display: flex;
+        flex-direction: column;
+
+        .username-label {
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .username-select-filter {
+            height: 30px;
+            option:first-child {
+                display: none;
+            }
+            option {
+                text-transform: capitalize;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .adId-select-filter-sections {
+        display: flex;
+        flex-direction: column;
+
+        .adIds-label {
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .adId-select-filter {
+            height: 30px;
+            option:first-child {
+                display: none;
+            }
+            option {
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .status-select-filter-sections {
+        display: flex;
+        flex-direction: column;
+
+        .status-label {
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .status-select-filter {
+            height: 30px;
+            option:first-child {
+                display: none;
+            }
+            option {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .transcation-sections {
+        display: flex;
+        flex-direction: column;
+
+        .transcation-label {
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .transcation-id {
+            height: 30px;
+        }
+    }
+
+    .notes-sections {
+        display: flex;
+        flex-direction: column;
+
+        .notes-label {
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .notes {
+            height: 30px;
+        }
+    }
+
+    .ads-filter-btn {
+        height: 30px;
+        background-color: #0048ba;
+        color: #fff;
+        border: none;
+        width: 60px;
+    }
+}
